@@ -255,17 +255,38 @@ position: absolute;
 }
 #content .list .list p{
 	text-align: center;
+	line-height: 48px;
 	font-size: 11px;
 	color: #8c8c8c;
 
 	
 }
-#content .star2{
-	
+#content .star-pic{
+	position: relative;
+}
+
+#content .pic-left{
+	width: 620px;
+}
+.pic-left .star2{
+	float: left;
 	
 }
-#content .star2 h4{
+.pic-left .star2 p{
+  font-size: 17px;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.pic-left .star2a{
+	position: absolute;
+	right: 0px;
+}
+.pic-left .star2-a{
 
+}
+#content .pic-right{
+	width: 310px;
 }
 /*.star1{
 	position: absolute;
@@ -282,7 +303,7 @@ position: absolute;
 	font-size: 12px;
 	color: #6d6d6d;
 }*/
-/*
+
 #footer{
 	position: relative;
 	height: 534px;
@@ -380,4 +401,4 @@ color: #6d6d6d;
 	right: 0px;
 	top: 448px;
 
-}*/
+}
