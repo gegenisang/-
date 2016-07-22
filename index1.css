@@ -1,0 +1,26 @@
+#top{
+	height:36px;
+	background: #3d856b;
+	position: relative;
+}
+
+#a{
+	position: relative;
+	height: 110px;
+	width: 932px
+	margin: 0 auto;
+	background: #e4a5b4;
+}
+#b{
+	position: relative;
+	width: 932px;
+	height: 4425px;
+	background: pink;
+}
+
+#c{
+	height: 599px;
+	margin: 0 auto;
+	background: yellow;
+
+}

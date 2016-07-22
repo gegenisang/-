@@ -1,7 +1,6 @@
 *{
 	margin: 0px;
-	padding:0px;
-
+	padding: 0px;
 }
 #box{
 	width: 932px;
@@ -54,71 +53,73 @@ background: none;
 
 #header{
 	height:110px;
+	width: 932px;
 	overflow: hidden;
 	position: relative;
 	
 }
 
 #logo{
-	float: left;
+	position: absolute;
+	left: 0px;
 	height: 70px;
-	padding-top: 25px;
+	top: 25px;
 	
 
 }
 .search{
-	width:425px;
+	position: absolute;
+	border: 1px solid #dfdfdf;
+	bottom: 15px;
+	left: 370px;
+	
 	
 }
 .search .text{
-	width: 370px;
-	height:40px;
-    padding-left: 15px;
-	border: 1px solid #dfdfdf;
 	color:#d4d4d4;
+	width: 423px;
+	height:40px;
 	font-size: 14px;
 	line-height: 40px;
-	position: absolute;
-	bottom:15px;
-	left:370px;
-}
-
-.search .btn{
-	width:40px;
-	height:40px;
-	border:1px solid #dfdfdf;
-	background:#fff url(6.png) no-repeat 50% 50%;
-	position: absolute;
-	right:175px;
-	bottom:15px;
-}
-.hot-words{
-position: absolute;
-   left: 530px;
-   bottom: 25px;
-   font-size: 12px;
-   display: inline;
-   line-height: 20px;
-   background:#f3f3f3;
-   
-  }
+	
 	
 }
-.hot-words a {
-	color: #333333;
-   border: 2px solid green;
-   margin: 0px 5px;
+
+	.search .btn{
+	position: absolute;
+	width:40px;
+	height:40px; 
+	border:1px solid #dfdfdf;
+	background:#fff url(6.png) no-repeat 50% 50%;
+	right:175px;
+	bottom:15px;
+		}
+	.hot-words{
+		position: absolute;
+   		left: 530px;
+   		top: 54px;
+   		font-size: 12px;
+   		display: inline;
+   		line-height: 20px;
+  		 background: #f3f3f3;
+   
+  			}
+	
+	.hot-words a {
+		color: #333333;
+   		border: 2px solid green;
+   		margin: 0px 5px;
    }
 
-.p{
-   width: 140px;
-   color: #d3caca;
-   font-size: 12px;
-   padding-left:2px;
-   position: absolute;
-   vertical-align: middle;
-   right:10px;
-   top:23px;
+	.p{
+  	 		width: 140px;
+   			color: #d3caca;
+   			font-size: 12px;
+   			padding-left:2px;
+   			position: absolute;
+   			vertical-align: middle;
+  			right:10px;
+   			top:23px;
 }
 .p img{
     margin-right: 3px;
@@ -143,7 +144,9 @@ position: absolute;
 }
 .nav{
 	width:932px;
+	height: 642px;
 	position:relative;
+	background: green;
 }
 .nav-first{
 	float: left;
@@ -207,10 +210,10 @@ position: absolute;
 	background: #fff;
 	margin: 0 auto;
 }
-.star{
+
+#content .star{
 	height:370px;
-
-
+	background: red;
 }
 .star1{
 	position: absolute;
@@ -261,33 +264,40 @@ position: absolute;
 
 	
 }
-#content .star-pic{
+.star-pic{
 	position: relative;
+	height: 996px;
+	background: pink;
 }
-
-#content .pic-left{
-	width: 620px;
+.star-pic .star2{
+	height: 60px;
+	background: yellow;
 }
-.pic-left .star2{
-	float: left;
-	
+.star-pic .star2 p{
+	color: #333;
+	font-size: 18px;
 }
-.pic-left .star2 p{
-  font-size: 17px;
-  color: #333;
-  margin-top: 30px;
-  margin-bottom: 16px;
-}
-.pic-left .star2a{
+.star-pic .star2 .star2a{
 	position: absolute;
 	right: 0px;
+	top: 25px;
+	font-size: 12px;
+	color: #333;
+}
+.star-pic .pic-left{
+	position: relative;
+	width: 620px;
+	height: 930px;
+	background: green;
 }
 .pic-left .star2-a{
-
-}
-#content .pic-right{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 310px;
 	width: 310px;
 }
+
 /*.star1{
 	position: absolute;
 	height:60px;
